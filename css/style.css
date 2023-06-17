@@ -656,7 +656,7 @@ a.navbar-brand {
 }
 
 .theme_color {
-	color: #fc301e;
+	color: #FF9C09;
 }
 
 .menu_orange_section {
@@ -774,7 +774,7 @@ button#sidebarCollapse {
 }
 
 .lbox-details p strong {
-	color: #70c6eb;
+	color: #7FF9C09b;
 	font-size: 40px;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -795,14 +795,14 @@ button#sidebarCollapse {
 }
 
 .pogoSlider-nav-btn {
-    background: #272f43;
+    background: #8B8B8B;
     width: 22px;
     height: 22px;
     border-radius: 100%;
 }
 
 .pogoSlider-nav-btn--selected {
-	background: #fc301e !important;
+	background: #FF9C09 !important;
 }
 
 .pogoSlider--navBottom .pogoSlider-nav {
@@ -817,12 +817,21 @@ button#sidebarCollapse {
 	max-width: 100%;
 }
 
+.slide_text h5{
+	font-size: 18px;
+    color: #272f43;
+    font-weight: 300;
+    line-height: 30px !important;
+    position: relative;
+    left: -4px;
+}
+
 .slide_text h3 {
-    font-size: 115px;
+    font-size: 90px;
     font-weight: 700;
     padding: 0;
     text-transform: uppercase;
-    color: #272f43;
+    color: #241F20;
     line-height: 110px !important;
     position: relative;
     left: -8px;
@@ -833,12 +842,12 @@ button#sidebarCollapse {
 }
 
 .slide_text h4 {
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 500;
     margin: 0;
     padding: 0;
     text-transform: none;
-    color: #272f43;
+    color: #FF9C09;
     line-height: 75px !important;
 }
 
@@ -897,7 +906,6 @@ button#sidebarCollapse {
 .slide_text h6 {
     font-size: 25px;
     color: #272f43;
-    text-transform: uppercase;
     font-weight: 300;
 }
 
@@ -969,14 +977,14 @@ button#sidebarCollapse {
 
 .feature_box:hover,
 .feature_box:focus {
-   background: #fc301e;
+   background: #FF9C09;
 }
 
 .feature_box:hover h4,
 .feature_box:focus h4,
 .feature_box:hover p,
 .feature_box:focus p {
-	color: #fff;
+	color: #241F20;
 }
 
 .feature_box:hover img.default-block,
@@ -990,6 +998,7 @@ button#sidebarCollapse {
 }
 
 .feature_box h4 {
+	color: #FF9C09;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -998,6 +1007,7 @@ button#sidebarCollapse {
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
+    text-align: center;
 }
 
 .about-box {
@@ -2139,12 +2149,10 @@ p {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     position: relative;
-    text-transform: uppercase;
     line-height: 45px !important;
 }
 
 .heading_main h2 span {
-    text-transform: uppercase;
     font-weight: 700;
 }
 
@@ -2372,16 +2380,16 @@ ul.social_icon li {
 }
 
 .dark_blue_layout {
-    background: #262e41;
+    background: #241F20;
 }
 
 .readmore_bt {
-    color: #fff;
-    font-size: 17px;
-    font-weight: 200;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
     width: 200px;
     height: 65px;
-    background: #272f43;
+    background: #241F20;
     float: left;
     text-align: center;
     line-height: 65px;
@@ -2390,7 +2398,7 @@ ul.social_icon li {
 }
 
 .readmore_bt i {
-    color: #00cc99;
+    color: #000;
     font-size: 25px;
     position: relative;
     top: 4px;
@@ -2398,8 +2406,8 @@ ul.social_icon li {
 }
 
 .readmore_bt:hover,.readmore_bt:focus {
-	background-color: #fc301e;
-	color: #fff;
+	background-color: #FF9C09;
+	color: #000;
 }
 
 .footer_bottom {
@@ -2760,7 +2768,7 @@ ul.bottom_menu li {
     
     #sidebar ul.components {
       padding: 20px 0;
-      border-bottom: 1px solid #47748b;
+      border-bottom: 5px solid #47748b;
     }
     
     #sidebar ul p {
@@ -2778,7 +2786,7 @@ ul.bottom_menu li {
     }
     
     #sidebar ul li a:hover {
-      color: #fc301e;
+      color: #FF9C09;
       background: #fff;
     }
     
@@ -2796,7 +2804,7 @@ ul.bottom_menu li {
     .menu_section ul li {
       float: left;
       width: 100%;
-      border-bottom: solid #eee 1px;
+      border-bottom: solid #222 1px;
     }
 
     #sidebar ul li.active>a,
